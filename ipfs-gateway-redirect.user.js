@@ -3,6 +3,7 @@
 // @namespace   loadletter
 // @description Redirect URLs from http://gateway.ipfs.io to a local IPFS gateway
 // @match       *://gateway.ipfs.io/ipfs/*
+// @match       *://gateway.ipfs.io/ipns/*
 // @version     1
 // @grant       none
 // @run-at      document-start
