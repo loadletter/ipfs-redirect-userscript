@@ -1,10 +1,12 @@
 // ==UserScript==
-// @name        Redirect to local IPFS gateway
+// @name        Redirect to local gateway
 // @namespace   loadletter
-// @description Redirect URLs from http://gateway.ipfs.io to a local IPFS gateway
+// @description Redirect from http://gateway.ipfs.io to http://localhost:8080
 // @match       *://gateway.ipfs.io/ipfs/*
 // @match       *://gateway.ipfs.io/ipns/*
-// @version     1
+// @match       *://ipfs.io/ipfs/*
+// @match       *://ipfs.io/ipns/*
+// @version     2
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==
